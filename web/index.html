@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description"
+    content="Experience endless entertainment with yourappname, your ultimate OTT platform for streaming movies, TV shows, kids' content, and more. Watch premium content, rent the latest releases, and enjoy exclusive access to your favorite titles. Discover a world of entertainment tailored to your tastes, available anytime, anywhere.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="yourappname">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>yourappname</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter_bootstrap.js" async></script>
+
+  <!-- iOS Apple login -->
+  <script type="text/javascript"
+    src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+
+  <!-- Google login -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <meta name="google-signin-client_id" content="----Enter your firebase project Google signin client_id----">
+
+  <!-- Razorpay -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+  <!-- Open new Tab -->
+  <script src="script.js" type="application/javascript"></script>
+
+  <!-- Stripe PG -->
+  <script src="https://js.stripe.com/v3/"></script>
+
+  <style>
+    .container {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      margin: 0;
+    }
+
+    .indicator {
+      width: 50vw;
+    }
+  </style>
+</head>
+
+<body style="overflow: hidden">
+
+  <div id="loading_indicator" class="container">
+    <img class="indicator" src="./assets/splash_web.png" />
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest" type="application/javascript"></script>
+
+</body>
+
+</html>
