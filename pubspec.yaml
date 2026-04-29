@@ -41,7 +41,7 @@ dependencies:
   google_fonts: ^6.2.1
   # Players
   wakelock_plus: ^1.4.0
-  vdocipher_flutter: ^2.7.8
+  vdocipher_flutter: ^2.8.2
   vimeo_video_player: ^1.0.1
   youtube_player_iframe: ^5.2.0
   pointer_interceptor: ^0.10.1+2
